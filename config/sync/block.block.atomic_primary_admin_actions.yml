@@ -1,0 +1,20 @@
+uuid: 443d5198-48c8-4137-9ca5-31b9b74d69fc
+langcode: en
+status: true
+dependencies:
+  theme:
+    - atomic
+_core:
+  default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
+id: atomic_primary_admin_actions
+theme: atomic
+region: content
+weight: -9
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

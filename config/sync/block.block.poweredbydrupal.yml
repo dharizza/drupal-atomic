@@ -1,0 +1,20 @@
+uuid: 9f5478cf-d9f5-480f-82c9-6fcb9211a2ca
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - atomic
+id: poweredbydrupal
+theme: atomic
+region: pre_footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

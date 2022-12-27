@@ -1,0 +1,23 @@
+uuid: f4a68780-d692-4952-a8a9-5c4a80d8985c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - atomic
+id: sitebranding_2
+theme: atomic
+region: footer
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

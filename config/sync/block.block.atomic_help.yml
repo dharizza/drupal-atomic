@@ -1,0 +1,22 @@
+uuid: 28ba5033-2104-46c7-a476-e1656fe73346
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - atomic
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: atomic_help
+theme: atomic
+region: header
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }
