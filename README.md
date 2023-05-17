@@ -5,10 +5,9 @@ The development environment configured for this project uses `ddev`, so make sur
 
 ### Setup Drupal project
 
-1. Clone this repository.
-2. Get into this project folder: cd atomic2023
+1. Clone this repository in a new folder, for example for creating it in the `atomic2023` folder you can run `git clone git@github.com:dharizza/drupal-atomic.git atomic2023`
+2. `cd` into your project's folder, for example with `cd atomic2023`
 3. Run `ddev start`
-4. Run `ddev config` and select drupal10 for the template.
 5. Run `ddev composer install`
 6. Run `ddev drush si --existing-config --account-pass=admin -y`
 
