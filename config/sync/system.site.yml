@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 84946a4b-16ed-4e7f-a45a-08b38eafbf0c
-name: 'Atomic 2022'
-mail: dharizza.espinach@evolvingweb.com
+uuid: c1e5630e-60c1-4697-912a-6779950c1a2f
+name: 'Atomic & Molecular Design in Drupal'
+mail: admin@example.com
 slogan: ''
 page:
   403: ''
