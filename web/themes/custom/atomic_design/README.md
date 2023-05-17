@@ -1,6 +1,6 @@
-Theme used for atomic_design training. This theme was generated from starterkit_theme. Additional information on generating themes can be found in the [Starterkit documentation](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
+Theme used for atomic_design training. This theme was generated from starter kit_theme. Additional information on generating themes can be found in the [Starterkit documentation](https://www.drupal.org/docs/core-modules-and-themes/core-themes/starterkit-theme).
 
-The theme generated with starterkit was updated to include a gulp setup so we can compile Sass and JS.
+The theme generated with starter kit was updated to include a gulp setup, so we can compile Sass and JS.
 
 Here's how you can get the ball rolling:
 
@@ -9,13 +9,13 @@ Here's how you can get the ball rolling:
 1. Install `nvm` if it is not already installed. This helps you manage
    multiple versions of Node JS.
 
-1. Open the terminal and `cd` into your theme's directory.
+2. Open the terminal and `cd` into your theme's directory.
 
-1. Use the node version defined in the `.nvmrc` file in this directory. To use the correct
+3. Use the node version defined in the `.nvmrc` file in this directory. To use the correct
    version of node for this project, simply `cd` into your theme's directory
    and run `nvm use`.
 
-1. Next, we install `gulp`. Gulp will help us compile SASS / JS files. Simply
+4. Next, we install `gulp`. Gulp will help us compile SASS / JS files. Simply
    run `npm install` and all the right tools and libraries will be installed.
 
 ### Compiling CSS / JS
@@ -28,9 +28,9 @@ Now whenever you want to work with SASS / JS, do the following:
 
 1. Open a terminal window and `cd` into your theme's directory.
 
-1. Run `nvm use` to make sure that you're using the right version of Node.
+2. Run `nvm use` to make sure that you're using the right version of Node.
 
-1. Run `npm run gulp watch` and it will watch your SCSS / JS files for changes. As
+3. Run `npm run gulp watch` and it will watch your SCSS / JS files for changes. As
    and when changes are detected, the respective CSS / JS files will be
    compiled and placed in the `css` and the `js` directories respectively.
 
